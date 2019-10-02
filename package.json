@@ -1,186 +1,186 @@
 {
-    "name": "gotemplate",
-    "displayName": "gotemplate-syntax",
-    "description": "Language support for go text/template",
-    "version": "0.3.0",
-    "publisher": "casualjim",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/casualjim/vscode-gotemplate"
-    },
-    "engines": {
-        "vscode": "^0.10.1"
-    },
-    "categories": [
-        "Programming Languages"
-    ],
-    "contributes": {
-        "languages": [
-            {
-                "id": "gots",
-                "aliases": [
-                    "Golang TypeScript Template",
-                    "gots"
-                ],
-                "extensions": [
-                    ".gots",
-                    ".ts.tmpl",
-                    ".ts.tpl"
-                ],
-                "configuration": "./gotemplate.configuration.json"
-            },
-            {
-                "id": "gojs",
-                "aliases": [
-                    "Golang JavaScript Template",
-                    "gojs"
-                ],
-                "extensions": [
-                    ".gojs",
-                    ".js.tmpl",
-                    ".js.tpl"
-                ],
-                "configuration": "./gotemplate.configuration.json"
-            },
-            {
-                "id": "gophp",
-                "aliases": [
-                    "Golang PHP Template",
-                    "gophp"
-                ],
-                "extensions": [
-                    ".gophp",
-                    ".php.tmpl",
-                    ".php.tpl"
-                ],
-                "configuration": "./gotemplate.configuration.json"
-            },
-            {
-                "id": "gojava",
-                "aliases": [
-                    "Golang Java Template",
-                    "gojava"
-                ],
-                "extensions": [
-                    ".gojava",
-                    ".java.tmpl",
-                    ".java.tpl"
-                ],
-                "configuration": "./gotemplate.configuration.json"
-            },
-            {
-                "id": "gogo",
-                "aliases": [
-                    "Golang GO Template",
-                    "gogo"
-                ],
-                "extensions": [
-                    ".gogo",
-                    ".go.tmpl",
-                    ".go.tpl"
-                ],
-                "configuration": "./gotemplate.configuration.json"
-            },
-            {
-                "id": "gotemplate",
-                "aliases": [
-                    "Golang Text Template",
-                    "gotemplate"
-                ],
-                "extensions": [
-                    ".gotmpl",
-                    ".tmpl",
-                    ".tpl"
-                ],
-                "configuration": "./gotemplate.configuration.json"
-            },
-            {
-                "id": "gohtml",
-                "aliases": [
-                    "Golang HTML Template",
-                    "gohtml"
-                ],
-                "extensions": [
-                    ".html",
-                    ".gohtml",
-                    ".html.tmpl",
-                    ".html.tpl"
-                ],
-                "configuration": "./gotemplate.configuration.json"
-            },
-            {
-                "id": "goyaml",
-                "aliases": [
-                    "Golang YAML Template",
-                    "goyaml"
-                ],
-                "extensions": [
-                    ".yml.tpl",
-                    ".yaml.tpl",
-                    ".yml.tmpl",
-                    ".yaml.tmpl"
-                ],
-                "configuration": "./gotemplate.configuration.json"
-            },
-            {
-                "id": "gojson",
-                "aliases": [
-                    "Golang JSON Template",
-                    "gojson"
-                ],
-                "extensions": [
-                    ".json.tpl",
-                    ".json.tmpl"
-                ],
-                "configuration": "./gotemplate.configuration.json"
-            }
+  "name": "jon-gotemplate",
+  "displayName": "jon-gotemplate-syntax",
+  "description": "Jon's tweaked language support for go text/template",
+  "version": "0.3.0",
+  "publisher": "joncalhoun",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joncalhoun/vscode-gotemplate"
+  },
+  "engines": {
+    "vscode": "^0.10.1"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "gots",
+        "aliases": [
+          "Golang TypeScript Template",
+          "gots"
         ],
-        "grammars": [
-            {
-                "language": "gots",
-                "scopeName": "source.gots",
-                "path": "./syntaxes/gots.tmLanguage"
-            },
-            {
-                "language": "gojs",
-                "scopeName": "source.gojs",
-                "path": "./syntaxes/gojs.tmLanguage"
-            },
-            {
-                "language": "gophp",
-                "scopeName": "source.gophp",
-                "path": "./syntaxes/gophp.tmLanguage"
-            },
-            {
-                "language": "gojava",
-                "scopeName": "source.gojava",
-                "path": "./syntaxes/gojava.tmLanguage"
-            },
-            {
-                "language": "gogo",
-                "scopeName": "source.gogo",
-                "path": "./syntaxes/gogo.tmLanguage"
-            },
-            {
-                "language": "gotemplate",
-                "scopeName": "source.gotemplate",
-                "path": "./syntaxes/gotemplate.tmLanguage"
-            },
-            {
-                "language": "gohtml",
-                "scopeName": "source.gohtml",
-                "path": "./syntaxes/gohtml.tmLanguage"
-            },
-            {
-                "language": "goyaml",
-                "scopeName": "source.goyaml",
-                "path": "./syntaxes/goyaml.tmLanguage"
-            },
-            {
-                "language": "gojson",
-                "scopeName": "source.gojson",
-                "path": "./syntaxes/gojson.tmLanguage"
-            }
-        ]
-    }
+        "extensions": [
+          ".gots",
+          ".ts.tmpl",
+          ".ts.tpl"
+        ],
+        "configuration": "./gotemplate.configuration.json"
+      },
+      {
+        "id": "gojs",
+        "aliases": [
+          "Golang JavaScript Template",
+          "gojs"
+        ],
+        "extensions": [
+          ".gojs",
+          ".js.tmpl",
+          ".js.tpl"
+        ],
+        "configuration": "./gotemplate.configuration.json"
+      },
+      {
+        "id": "gophp",
+        "aliases": [
+          "Golang PHP Template",
+          "gophp"
+        ],
+        "extensions": [
+          ".gophp",
+          ".php.tmpl",
+          ".php.tpl"
+        ],
+        "configuration": "./gotemplate.configuration.json"
+      },
+      {
+        "id": "gojava",
+        "aliases": [
+          "Golang Java Template",
+          "gojava"
+        ],
+        "extensions": [
+          ".gojava",
+          ".java.tmpl",
+          ".java.tpl"
+        ],
+        "configuration": "./gotemplate.configuration.json"
+      },
+      {
+        "id": "gogo",
+        "aliases": [
+          "Golang GO Template",
+          "gogo"
+        ],
+        "extensions": [
+          ".gogo",
+          ".go.tmpl",
+          ".go.tpl"
+        ],
+        "configuration": "./gotemplate.configuration.json"
+      },
+      {
+        "id": "gotemplate",
+        "aliases": [
+          "Golang Text Template",
+          "gotemplate"
+        ],
+        "extensions": [
+          ".gotmpl",
+          ".tmpl",
+          ".tpl"
+        ],
+        "configuration": "./gotemplate.configuration.json"
+      },
+      {
+        "id": "gohtml",
+        "aliases": [
+          "Golang HTML Template",
+          "gohtml"
+        ],
+        "extensions": [
+          ".html",
+          ".gohtml",
+          ".html.tmpl",
+          ".html.tpl"
+        ],
+        "configuration": "./gotemplate.configuration.json"
+      },
+      {
+        "id": "goyaml",
+        "aliases": [
+          "Golang YAML Template",
+          "goyaml"
+        ],
+        "extensions": [
+          ".yml.tpl",
+          ".yaml.tpl",
+          ".yml.tmpl",
+          ".yaml.tmpl"
+        ],
+        "configuration": "./gotemplate.configuration.json"
+      },
+      {
+        "id": "gojson",
+        "aliases": [
+          "Golang JSON Template",
+          "gojson"
+        ],
+        "extensions": [
+          ".json.tpl",
+          ".json.tmpl"
+        ],
+        "configuration": "./gotemplate.configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "gots",
+        "scopeName": "source.gots",
+        "path": "./syntaxes/gots.tmLanguage"
+      },
+      {
+        "language": "gojs",
+        "scopeName": "source.gojs",
+        "path": "./syntaxes/gojs.tmLanguage"
+      },
+      {
+        "language": "gophp",
+        "scopeName": "source.gophp",
+        "path": "./syntaxes/gophp.tmLanguage"
+      },
+      {
+        "language": "gojava",
+        "scopeName": "source.gojava",
+        "path": "./syntaxes/gojava.tmLanguage"
+      },
+      {
+        "language": "gogo",
+        "scopeName": "source.gogo",
+        "path": "./syntaxes/gogo.tmLanguage"
+      },
+      {
+        "language": "gotemplate",
+        "scopeName": "source.gotemplate",
+        "path": "./syntaxes/gotemplate.tmLanguage"
+      },
+      {
+        "language": "gohtml",
+        "scopeName": "source.gohtml",
+        "path": "./syntaxes/gohtml.tmLanguage"
+      },
+      {
+        "language": "goyaml",
+        "scopeName": "source.goyaml",
+        "path": "./syntaxes/goyaml.tmLanguage"
+      },
+      {
+        "language": "gojson",
+        "scopeName": "source.gojson",
+        "path": "./syntaxes/gojson.tmLanguage"
+      }
+    ]
+  }
 }
